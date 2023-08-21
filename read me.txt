@@ -1,0 +1,7 @@
+To log into the program as a user -
+username: user
+password: user
+
+To log into the program as an admin -
+username: admin
+password: admin
