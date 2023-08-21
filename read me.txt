@@ -1,3 +1,6 @@
+***Project notes to the user***
+--------------------------------------------------------------------------------------------------------------------------
+
 To log into the program as a user -
 username: user
 password: user
@@ -5,3 +8,50 @@ password: user
 To log into the program as an admin -
 username: admin
 password: admin
+
+
+Other accounts -
+username		password	type
+
+Jabulani Naidoo		curry@kfc	admin
+John Abrahams		jab410		admin
+Ben Morris		lexus006	admin
+Abdullah Osman		muhamed		admin
+Jeff Rush		speedy01	admin
+guest01			passw01		user
+guest02			passw02		user
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Pages -
+(all pages are accessed from, and return to the home page)
+
+	Sign-Up
+		Lets users not in the database sign up as non-admins.
+			Errors: Use existing username. Use a blank username/password.
+	Login
+		Admins can log in, and will be granted permission to use certain aspects of the program.
+		Users can log in to view certain aspects of the program.
+			Errors: Use incorrect/blank login deatils.
+	Home
+		Admins can use it to navigate to the Fund-Raisers, Animals, and Admin settings pages.
+		Users can use it to navigate to the Fund-Raisers, and Animals pages.
+	Admin settings
+		Can only be seen and used by logged in admins to delete or restore non-admin users.
+	Fund-Raisers
+		Admins can edit and retore the fund raiser amounts.
+		Users can view the current fund-raiser details, no editing can be done.
+			Errors: Input string values instead of numerical values.
+	Animals
+		All users can view and interact in order to learn more about certain endangered species.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Data -
+	Database
+		Stores the fund-raising, animals, and user account data in their respective tables.
+	Text files
+		fBackup - backup of the money raised and goal amounts for the fund-raisers.
+		uBackup - backup of the non-admin user accounts.
+
+--------------------------------------------------------------------------------------------------------------------------
